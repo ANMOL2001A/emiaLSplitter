@@ -25,7 +25,7 @@ public class AddDomaintest {
         Test.startTest();
        // AddDomainHelper.contactForMap(contacts);
          Test.stopTest();
-       
+       system.debug('heelo repo');
         
         // Perform assertions on the result
        // System.assertEquals(200, result.size(), 'Map size should be 2');
