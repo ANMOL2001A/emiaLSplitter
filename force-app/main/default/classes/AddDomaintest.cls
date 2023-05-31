@@ -10,7 +10,7 @@ public class AddDomaintest {
         triggerConfig.SkipForUsers__c=NULL;
         triggerConfig.Name='Contact';
         insert triggerConfig;
-        
+        sytem.debug('heelo repo');
         account acc= new account(name='sharma');
         insert acc;
         
